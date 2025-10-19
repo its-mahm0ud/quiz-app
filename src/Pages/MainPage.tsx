@@ -1,14 +1,13 @@
-import { Button  } from "@heroui/react";
+import { Button } from "@heroui/react";
 import NavbarComponent from "../Components/NavbarComponent/NavbarComponent";
 import { useState } from "react";
 import CartOfDetailsQuiz from "../Components/CartOfDetailsQuizComponent/CartOfDetailsQuiz";
 
+
 export default function MainPage() {
   const [showDetailsQuiz, setshowDetailsQuiz] = useState(false);
   return (
-    <div
-      className={`bg-[url(public/pic.jpg)] w-full h-screen bg-center bg-cover`}
-    >
+    <div className="main-bg w-full h-screen bg-center bg-cover">
       <NavbarComponent />
       <div className="flex w-full   justify-center items-center text-center">
         <div className="flex flex-col w-full justify-center gap-3 mt-4">
