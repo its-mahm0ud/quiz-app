@@ -42,7 +42,7 @@ export default function CartOfDetailsQuiz() {
   return (
     <>
       {!showQuiz && (
-        <Card className="text-textMainColor  w-1/4 mx-auto mt-10 shadow-lg bg-inherit border border-blue-400">
+        <Card className="text-textMainColor max-sm:w-full  w-1/4 mx-auto mt-10 shadow-lg bg-inherit border border-blue-400">
           <div className="p-6 flex flex-col gap-4">
             <h2 className="text-2xl font-bold text-slate-900 text-center mb-4">
               Your Quiz Details
